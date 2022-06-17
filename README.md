@@ -3,7 +3,7 @@
 Study based on most actual Data
 
 1st Using a Select statement to gather all the Data that will be used (Location,date, Total Cases, new cases, total deaths, population)
-while excempting continents to only show  countries.
+while exempting continents to only show  countries.
 
 2nd Formulated a query to find the likelihood of dying if you contracted covid in your country(ex.USA). Dividing (Total deaths/ Total Cases)*100).
 
@@ -24,7 +24,7 @@ Demonstrated with the use of aggregate functions three colums showing the SUM of
 7th Looking at Total Population vs New Vaccinations
 
 Using the Join function and partition by on tables (coviddeaths/covidvaccinations) united columns(continent,location,date,population and new vaccinations)
-into alias Rolling peopleVaccinated to divided by population resulting in the percentage of people being vaccinated.
+into alias RollingpeopleVaccinated to be divided by population resulting in the percentage of people being vaccinated.
 
 8th Created CTE ( Temp Table) PopsVac on the previous Join and subsequently created a table(PercentPopulationVaccinated).
 
