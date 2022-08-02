@@ -2,7 +2,7 @@
 # Covid Cases & Deaths
 Study based on most actual Data
 
-1- Using a Select statement to gather all the Data that will be used (Location,date, Total Cases, new cases, total deaths, population)
+1- Using a Select statement to gather all the Data that was used (Location,date, Total Cases, new cases, total deaths, population)
 while exempting continents to only show  countries.
 
 2- Formulated a query to find the likelihood of dying if you contracted covid in your country(ex.USA). Dividing (Total deaths/ Total Cases)*100).
